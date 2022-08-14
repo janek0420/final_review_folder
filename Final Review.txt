@@ -1,0 +1,98 @@
+1. variables
+ - variables are containers with symbolic names that save (and store) changeable data
+ - ex) newVal = 0
+
+
+2. datatypes
+ - integer: 1,0,23923,-834934
+ - float: 0.5, -74.32, 1.932083
+ - string: "Hello Python", "apple"
+ - boolean: True, False
+
+
+3. function
+ - when you recall a function with specific code than it runs the code that it contains with the given parameter (except for void functions that do not have a given input)
+ - def newFunction(x #parameter):
+ 		blablablabla
+ 		return x (or other variable) 
+
+
+4. loops
+ - for
+ - while
+ - both repeats a certain code but the for loop has a specific limitation in the number of repetition while the while loop does not really have one
+
+
+5. operaters
+ - arithmetic operaters
+	- +,-,*: addition, subtraction, multiplication
+	- /: true division (including decimals)
+	- //: floor division (only the quotient)
+	- %: remainder
+	- **: exponentiation
+ - logical operaters
+ 	- and, or, not
+ - comparison operaters
+ 	- ==, <, >, !=, <=, >=
+ - assignment operaters
+ 	- =, +=, -=, *=, /=...
+
+
+6. if statement
+ - giving conditionals, so if a certain conditional is not satisfied, the code below is "skipped" but if it is satisfied the code below works
+ - if num > 0:
+ 	print(num)
+ - test = 1 if 1 == 1 else 2
+ 	print(test)
+ - 1 if
+ - 0 ~ unlimited elif
+ - 0 or 1 else
+
+
+7. tkinter (gui)
+ - Graphical User Interface
+ - create window
+ 	- label
+ 	- image
+ 	- button
+ 	- input (entry)
+ - pack or grid to locate these elements in certain location
+ - Interacting with the users
+
+
+8. collectives (list,tuple,dictionary,set) #이거 조금 헷갈림
+ - list: collection of data that is mutable (order matters)
+ 	- lst = list()
+ 	- lst = [0,1,2,3,4]
+ - tuple: nearly same with list but immutable (order matters)
+ 	- t = tuple()
+ 	- t = (0,1,2,3,4)
+ - dictionary: order doesn't matter, mutable, has keys and values
+ 	- d = dict()
+ 	- d = {"school":"Chadwick", "grade":9}
+ - set: order doesn't matter, repetition not allowed
+ 	- s = set()
+ 	- s = {'cat', 'dog', 'cookie & cream'}
+
+ - list: order matters (index), mutable, repetition allowed
+ - tuple: order matters, immutable, repetition allowed
+ - dictionary: order doesn't matter, mutable, repetition not allowed, keys and values exist in a pair
+ - set: order doesn't matter, immutable, repetition not allowed, no keys and values (just a collection of single values)
+ ***: the keys in dictionary are in set type XD
+
+
+
+9. oop(optional) --> Object Oriented Program
+ - mutator (setter)
+ - accessor (getter)
+ - class human:
+ 	 def __init__(self, name):
+ 	 	self.name = name
+ 	 def printName(self):
+ 	 	return name
+
+
+
+
+
+
